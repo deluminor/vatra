@@ -12,6 +12,9 @@ export default defineConfig(async ({ mode }) => {
     plugins: [react(), tailwindcss()],
     clearScreen: false,
     build: {
+      // Minification strips dependencies' license headers; this file carries
+      // their notices instead and is shipped with every bundle.
+      license: { fileName: "THIRD-PARTY-NOTICES.md" },
       rollupOptions: {
         // The quick composer panel loads its own page so it does not boot the
         // whole workspace.

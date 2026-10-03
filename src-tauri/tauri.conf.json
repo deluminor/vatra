@@ -50,8 +50,11 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
+    "copyright": "Copyright (c) 2026 Erik K. (deluminor). Portions copyright (c) 2026 Nick (MonoCode). MIT License.",
     "resources": {
-      "macos/Assets.car": "Assets.car"
+      "macos/Assets.car": "Assets.car",
+      "../LICENSE": "LICENSE",
+      "../NOTICE": "NOTICE"
     },
     "macOS": {
       "entitlements": "Entitlements.plist",

@@ -5,7 +5,16 @@ Vatra is derived from MonoCode (https://github.com/hardbeat920/monocode),
 distributed under the MIT License. The original copyright notice and
 permission notice are retained in LICENSE. Vatra
 started as a fork of MonoCode and is now maintained as a separate
-repository that continues to incorporate MonoCode changes.
+repository that continues to incorporate MonoCode changes. MonoCode's
+authors and contributors, and the full history of their work, are listed
+in the MonoCode repository and mirrored on this repository's
+`upstream-main` branch.
+
+Third-party components keep their own notices: vendor/portable-pty/LICENSE.md
+(Copyright (c) 2018 Wez Furlong, MIT) and the MIT header in
+src/features/source-control/model/gitGraph.ts (Copyright (c) Microsoft
+Corporation). Each desktop build embeds THIRD-PARTY-NOTICES.md with the
+licenses of the JavaScript dependencies bundled into the app.
 
 Vatra is not affiliated with, endorsed by, or sponsored by the MonoCode
 project or by the makers of the agent harnesses it can drive.

@@ -29,6 +29,8 @@
         "bundleMediaFramework": false
       }
     },
-    "resources": null
+    "resources": {
+      "macos/Assets.car": null
+    }
   }
 }
